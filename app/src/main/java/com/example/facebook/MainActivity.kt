@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val img=findViewById<ImageView>(R.id.fb)
-        img.setImageResource(R.drawable.fbicon)
+        img.setImageResource(R.drawable.fb)
 
 
 

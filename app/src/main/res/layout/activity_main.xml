@@ -9,21 +9,21 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="305dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="56dp"
+        android:layout_width="306dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
         android:hint="Email or Phone"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintHorizontal_bias="0.447"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fb" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
-        android:layout_width="306dp"
-        android:layout_height="45dp"
+        android:layout_width="303dp"
+        android:layout_height="49dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Password"
@@ -87,13 +87,11 @@
 
     <ImageView
         android:id="@+id/fb"
-        android:layout_width="166dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="44dp"
+        android:layout_width="412dp"
+        android:layout_height="196dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/fb"
+        tools:layout_editor_absoluteY="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
